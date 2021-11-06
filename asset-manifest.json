@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/TS-Game/static/css/main.6d81f805.chunk.css",
+    "main.js": "/TS-Game/static/js/main.2f5aa0ef.chunk.js",
+    "main.js.map": "/TS-Game/static/js/main.2f5aa0ef.chunk.js.map",
+    "runtime-main.js": "/TS-Game/static/js/runtime-main.249689e9.js",
+    "runtime-main.js.map": "/TS-Game/static/js/runtime-main.249689e9.js.map",
+    "static/js/2.21dcbe72.chunk.js": "/TS-Game/static/js/2.21dcbe72.chunk.js",
+    "static/js/2.21dcbe72.chunk.js.map": "/TS-Game/static/js/2.21dcbe72.chunk.js.map",
+    "index.html": "/TS-Game/index.html",
+    "static/css/main.6d81f805.chunk.css.map": "/TS-Game/static/css/main.6d81f805.chunk.css.map",
+    "static/js/2.21dcbe72.chunk.js.LICENSE.txt": "/TS-Game/static/js/2.21dcbe72.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.249689e9.js",
+    "static/js/2.21dcbe72.chunk.js",
+    "static/css/main.6d81f805.chunk.css",
+    "static/js/main.2f5aa0ef.chunk.js"
+  ]
+}
