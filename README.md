@@ -17,13 +17,13 @@ Commands have been used:
 - yarn add @reduxjs/toolkit
 - yarn add react-redux
 
-- npm install gh-pages --save-dev
+- npm install gh-pages --save
 
 Additional Actions:
 
 - "manually created in root directory .prettierrc.json file with configuration for Prettier Extension"
 - "enabled Auto-Save" in VSCode
-- "for github Pages enabled option on github repository for it, then updated package.json":
+- "for github Pages enabled option on github repository (gh-pages) for it, then updated package.json":
   "homepage": "https://juandrepanther.github.io/TS-Game/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
