@@ -1,0 +1,10 @@
+.stats {
+ height: 300px;
+ width: 150px;
+ background-color: rgb(165, 165, 165);
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 50px;
+}
