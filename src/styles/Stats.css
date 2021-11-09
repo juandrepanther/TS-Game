@@ -4,7 +4,12 @@
  background-color: rgb(165, 165, 165);
  border-radius: 10px;
  display: flex;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
- font-size: 50px;
+ font-size: 40px;
+}
+
+.timer-title {
+ font-size: 15px;
 }

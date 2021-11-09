@@ -8,7 +8,7 @@ export default function Board(): ReactElement {
  useEffect(() => {
   const interval = setInterval(() => {
    setShow((prevState) => !prevState)
-  }, 2000)
+  }, 1000)
   return () => clearInterval(interval)
  }, [])
 
