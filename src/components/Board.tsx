@@ -7,7 +7,14 @@ export default function Board(): ReactElement {
 
  useEffect(() => {
   const interval = setInterval(() => {
-   setShow((prevState) => !prevState)
+   const count = document.getElementById("timer")?.innerText
+   console.log(count)
+   if (count !== "0 sec.") {
+    setShow((prevState) => !prevState)
+   } else {
+    console.log("STOP fr Trigger final modal")
+    clearInterval(interval)
+   }
   }, 1000)
   return () => clearInterval(interval)
  }, [])
