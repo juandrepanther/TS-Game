@@ -19,6 +19,8 @@ Commands have been used:
 
 - npm install gh-pages --save
 
+- npm run deploy (for publishing in Github Pages, but need to wait some time for updates come into force)
+
 Additional Actions:
 
 - "manually created in root directory .prettierrc.json file with configuration for Prettier Extension"
@@ -27,3 +29,9 @@ Additional Actions:
   "homepage": "https://juandrepanther.github.io/TS-Game/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
+
+REMARKS:
+
+- latest react-router-dom does not support Switch and component attribute. Must be:
+  import { BrowserRouter, Route, Routes } from "react-router-dom",
+  <Route path="/DragElements" element={<Game />} />
