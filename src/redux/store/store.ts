@@ -1,9 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
+import secReducer from "../reducers/secReducer";
 import statsReducer from "../reducers/statsReducer";
+
 
 export const store = configureStore({
     reducer: {
-        stats: statsReducer
+        stats: statsReducer,
+        seconds: secReducer
     }
 });
 
