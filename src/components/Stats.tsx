@@ -7,15 +7,11 @@ import "../styles/Stats.css"
 export default function Stats(): ReactElement {
  const value = useSelector((state: RootState) => state.stats.value)
 
- 
-
  return (
-  <>
-   <div className="stats">
-    {value}
-    <div className="timer-title">TIMER</div>
-    <div id="timer"></div>
-   </div>
-  </>
+  <div className="stats">
+   {value}
+   <div className="timer-title">TIMER</div>
+   <div id="timer"></div>
+  </div>
  )
 }

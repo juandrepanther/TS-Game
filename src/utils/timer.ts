@@ -7,9 +7,9 @@ export default function timer(seconds: number) {
  let counter = seconds
 
  const intervalId = setInterval(() => {
-  counter -= 1
   returnValue(counter)
-  if (counter === 1) {
+  counter -= 1
+  if (counter === 0) {
    clearInterval(intervalId)
   }
  }, 1000)
