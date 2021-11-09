@@ -8,7 +8,6 @@ export default function Board(): ReactElement {
  useEffect(() => {
   const interval = setInterval(() => {
    const count = document.getElementById("timer")?.innerText
-   console.log(count)
    if (count !== "0 sec.") {
     setShow((prevState) => !prevState)
    } else {
