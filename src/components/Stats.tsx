@@ -1,15 +1,13 @@
 import { ReactElement } from "react"
 import { useSelector } from "react-redux"
 import { RootState } from "../redux/store/store"
-import timer from "src/utils/timer"
 
 import "../styles/Stats.css"
 
 export default function Stats(): ReactElement {
  const value = useSelector((state: RootState) => state.stats.value)
 
- //EXECUTING TIMER UTILITY
- timer(15)
+ 
 
  return (
   <>
