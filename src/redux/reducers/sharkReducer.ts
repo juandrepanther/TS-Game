@@ -1,12 +1,15 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit"
+import { randomSharkNumber } from "src/utils/sharksStore"
 import type { RootState } from "../store/store"
 
 interface ISeconds {
- sharkIndex: number
+ sharkIndex: number,
+ randomStartShark: number
 }
 
 const initialState: ISeconds = {
- sharkIndex: 0
+ sharkIndex: 0,
+ randomStartShark: randomSharkNumber()
 }
 
 export const sharkReducer = createSlice({

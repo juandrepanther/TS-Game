@@ -3,18 +3,19 @@ import "../styles/Basket.css"
 import { useDispatch, useSelector } from "react-redux"
 import { increment } from "../redux/reducers/statsReducer"
 import { RootState } from "src/redux/store/store"
-import { sharks, randomSharkNumber } from "src/utils/sharksStore"
+import { sharksColor } from "src/utils/sharksStore"
 
 export const Basket = () => {
  const dispatch = useDispatch()
- const selectedShark = useSelector(
-  (state: RootState) => state.sharkIndex.sharkIndex
+ const { sharkIndex, randomStartShark } = useSelector(
+  (state: RootState) => state.sharkIndex
  )
 
  //LOGIC ON RANDOM SHARK START SELECTION
-
  const countStats = () =>
-  selectedShark === 0 ? dispatch(increment(1)) : console.log("not yellow")
+  sharkIndex === randomStartShark
+   ? dispatch(increment(1))
+   : console.log(`Not ${sharksColor[randomStartShark]} baby-shark`)
 
  return (
   <div
@@ -22,7 +23,7 @@ export const Basket = () => {
    onDrop={() => countStats()}
    className="basket"
   >
-   DROP YELLOW SHARKS
+   {`Drop ${sharksColor[randomStartShark].toUpperCase()} baby-sharks`}
   </div>
  )
 }
