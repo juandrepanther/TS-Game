@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/TS-Game/static/css/main.55ce93f2.chunk.css",
-    "main.js": "/TS-Game/static/js/main.f4fc01ab.chunk.js",
-    "main.js.map": "/TS-Game/static/js/main.f4fc01ab.chunk.js.map",
+    "main.css": "/TS-Game/static/css/main.5c8c2104.chunk.css",
+    "main.js": "/TS-Game/static/js/main.0d3d276c.chunk.js",
+    "main.js.map": "/TS-Game/static/js/main.0d3d276c.chunk.js.map",
     "runtime-main.js": "/TS-Game/static/js/runtime-main.3682331a.js",
     "runtime-main.js.map": "/TS-Game/static/js/runtime-main.3682331a.js.map",
     "static/js/2.6cc679be.chunk.js": "/TS-Game/static/js/2.6cc679be.chunk.js",
     "static/js/2.6cc679be.chunk.js.map": "/TS-Game/static/js/2.6cc679be.chunk.js.map",
     "index.html": "/TS-Game/index.html",
-    "static/css/main.55ce93f2.chunk.css.map": "/TS-Game/static/css/main.55ce93f2.chunk.css.map",
+    "static/css/main.5c8c2104.chunk.css.map": "/TS-Game/static/css/main.5c8c2104.chunk.css.map",
     "static/js/2.6cc679be.chunk.js.LICENSE.txt": "/TS-Game/static/js/2.6cc679be.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/TS-Game/static/media/background.80b6e997.jpg",
+    "static/media/shark-bed.78259dd6.png": "/TS-Game/static/media/shark-bed.78259dd6.png",
     "static/media/shark-daddy.43ec729e.png": "/TS-Game/static/media/shark-daddy.43ec729e.png",
     "static/media/shark-grand.7986e720.png": "/TS-Game/static/media/shark-grand.7986e720.png",
     "static/media/shark-papa.cd768167.png": "/TS-Game/static/media/shark-papa.cd768167.png",
@@ -18,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.3682331a.js",
     "static/js/2.6cc679be.chunk.js",
-    "static/css/main.55ce93f2.chunk.css",
-    "static/js/main.f4fc01ab.chunk.js"
+    "static/css/main.5c8c2104.chunk.css",
+    "static/js/main.0d3d276c.chunk.js"
   ]
 }
