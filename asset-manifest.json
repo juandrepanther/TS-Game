@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TS-Game/static/css/main.0bca530f.chunk.css",
-    "main.js": "/TS-Game/static/js/main.19f3f11d.chunk.js",
-    "main.js.map": "/TS-Game/static/js/main.19f3f11d.chunk.js.map",
+    "main.css": "/TS-Game/static/css/main.dcf090e7.chunk.css",
+    "main.js": "/TS-Game/static/js/main.c78075eb.chunk.js",
+    "main.js.map": "/TS-Game/static/js/main.c78075eb.chunk.js.map",
     "runtime-main.js": "/TS-Game/static/js/runtime-main.3682331a.js",
     "runtime-main.js.map": "/TS-Game/static/js/runtime-main.3682331a.js.map",
-    "static/js/2.8ee7d33f.chunk.js": "/TS-Game/static/js/2.8ee7d33f.chunk.js",
-    "static/js/2.8ee7d33f.chunk.js.map": "/TS-Game/static/js/2.8ee7d33f.chunk.js.map",
+    "static/js/2.3b2e5f44.chunk.js": "/TS-Game/static/js/2.3b2e5f44.chunk.js",
+    "static/js/2.3b2e5f44.chunk.js.map": "/TS-Game/static/js/2.3b2e5f44.chunk.js.map",
     "index.html": "/TS-Game/index.html",
-    "static/css/main.0bca530f.chunk.css.map": "/TS-Game/static/css/main.0bca530f.chunk.css.map",
-    "static/js/2.8ee7d33f.chunk.js.LICENSE.txt": "/TS-Game/static/js/2.8ee7d33f.chunk.js.LICENSE.txt"
+    "static/css/main.dcf090e7.chunk.css.map": "/TS-Game/static/css/main.dcf090e7.chunk.css.map",
+    "static/js/2.3b2e5f44.chunk.js.LICENSE.txt": "/TS-Game/static/js/2.3b2e5f44.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3682331a.js",
-    "static/js/2.8ee7d33f.chunk.js",
-    "static/css/main.0bca530f.chunk.css",
-    "static/js/main.19f3f11d.chunk.js"
+    "static/js/2.3b2e5f44.chunk.js",
+    "static/css/main.dcf090e7.chunk.css",
+    "static/js/main.c78075eb.chunk.js"
   ]
 }
