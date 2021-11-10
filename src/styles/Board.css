@@ -11,8 +11,12 @@
 .random-object {
  width: 30px;
  height: 30px;
- background-color: brown;
  border-radius: 10px;
  position: absolute;
  cursor: grab;
+}
+
+.main-shark {
+ width: 40px;
+ height: auto;
 }

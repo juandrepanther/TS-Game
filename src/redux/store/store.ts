@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit"
 import secReducer from "../reducers/secReducer"
+import sharkReducer from "../reducers/sharkReducer"
 import statsReducer from "../reducers/statsReducer"
 
 export const store = configureStore({
  reducer: {
   stats: statsReducer,
-  seconds: secReducer
+  seconds: secReducer,
+  sharkIndex: sharkReducer
  }
 })
 

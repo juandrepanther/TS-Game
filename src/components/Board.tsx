@@ -3,6 +3,9 @@ import { useDispatch } from "react-redux"
 import { changeIsStarted } from "src/redux/reducers/secReducer"
 import "../styles/Board.css"
 import { useNavigate } from "react-router-dom"
+import { selectShark } from "src/redux/reducers/sharkReducer"
+import { sharks, randomSharkNumber } from "src/utils/sharksStore"
+import { randomParams } from "src/utils/randomParams"
 
 export default function Board(): ReactElement {
  const [show, setShow] = useState(true)
@@ -16,22 +19,17 @@ export default function Board(): ReactElement {
     setShow((prevState) => !prevState)
     dispatch(changeIsStarted(false))
    } else {
-    console.log("here must be trigger to final page")
     clearInterval(interval)
     navigate("/TS-Game-Finish")
-    //window.history.pushState({}, "", "/TS-Game-Finish")
    }
   }, 1000)
   return () => clearInterval(interval)
  }, [dispatch, navigate])
 
- //RANDOM WIDTH & HEIGHT
-
- const randomParams = (min: number, max: number): number => {
-  return Math.floor(Math.random() * (max - min + 1) + min)
- }
+ const sharkHandler = (sharkIndex: number) => dispatch(selectShark(sharkIndex))
 
  const RenderRandomObject = () => {
+  const randomNumberClone = randomSharkNumber()
   return (
    <div
     style={{
@@ -40,8 +38,22 @@ export default function Board(): ReactElement {
     }}
     draggable
     className="random-object"
-   ></div>
+   >
+    <img
+     src={sharks[randomNumberClone]}
+     alt=""
+     className="main-shark"
+     onMouseDown={() => sharkHandler(randomNumberClone)}
+    />
+   </div>
   )
  }
- return <div className="board">{show && <RenderRandomObject />}</div>
+ return (
+  <div className="board">
+   {show &&
+    sharks.map((_shark, index) => {
+     return <RenderRandomObject key={index} />
+    })}
+  </div>
+ )
 }

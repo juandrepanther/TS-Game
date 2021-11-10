@@ -13,7 +13,7 @@ export default function Start(): ReactElement {
   <div className="finish-page">
    <div className="finish-page-title">Your Results:</div>
    <div className="finish-page-result">
-    {`Within ${seconds} seconds you collected ${value} objects.`}
+    {`Within ${seconds} seconds you collected ${value} Yellow baby-sharks.`}
    </div>
   </div>
  )
