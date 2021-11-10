@@ -1,8 +1,15 @@
+.finish-page {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
 .finish-page-title {
  text-align: center;
  font-size: 30px;
  color: rgb(204, 204, 204);
 }
 .finish-page-result {
-    color: chartreuse;
+ color: chartreuse;
 }

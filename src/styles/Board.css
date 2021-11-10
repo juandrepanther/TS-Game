@@ -2,7 +2,7 @@
  position: relative;
  width: 500px;
  height: 500px;
- background-color: rgb(106, 106, 106);
+
  border-radius: 10px;
  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
   rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -16,7 +16,56 @@
  cursor: grab;
 }
 
-.main-shark {
+.main-shark-0 {
  width: 40px;
  height: auto;
+ animation: 3s ease-out 0s 1 ease-in1;
+}
+.main-shark-1 {
+ width: 40px;
+ height: auto;
+ animation: 5s ease-out 0s 1 ease-in2;
+}
+.main-shark-2 {
+ width: 40px;
+ height: auto;
+ animation: 2.5s ease-out 0s 1 ease-in3;
+}
+.main-shark-3 {
+ width: 40px;
+ height: auto;
+ animation: 1.5s ease-out 0s 1 ease-in4;
+}
+
+@keyframes ease-in1 {
+ 0% {
+  transform: translateX(-100%);
+ }
+ 100% {
+  transform: translateX(0);
+ }
+}
+@keyframes ease-in2 {
+ 0% {
+  transform: translateX(0);
+ }
+ 100% {
+  transform: translateX(-100%);
+ }
+}
+@keyframes ease-in3 {
+ 0% {
+  transform: translateX(-100%);
+ }
+ 100% {
+  transform: translateX(0);
+ }
+}
+@keyframes ease-in4 {
+ 0% {
+  transform: translateX(0);
+ }
+ 100% {
+  transform: translateX(-100%);
+ }
 }

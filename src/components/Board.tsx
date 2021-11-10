@@ -22,7 +22,7 @@ export default function Board(): ReactElement {
     clearInterval(interval)
     navigate("/TS-Game-Finish")
    }
-  }, 1000)
+  }, 1500)
   return () => clearInterval(interval)
  }, [dispatch, navigate])
 
@@ -42,7 +42,7 @@ export default function Board(): ReactElement {
     <img
      src={sharks[randomNumberClone]}
      alt=""
-     className="main-shark"
+     className={`main-shark-${randomSharkNumber()}`}
      onMouseDown={() => sharkHandler(randomNumberClone)}
     />
    </div>

@@ -2,4 +2,20 @@
  text-align: center;
  font-size: 30px;
  color: rgb(204, 204, 204);
+ animation-iteration-count: infinite;
+ animation-duration: 6s;
+ animation-name: in-out;
+ animation-timing-function: ease-out;
+}
+
+@keyframes in-out {
+ 0% {
+  transform: scale(1);
+ }
+ 50% {
+  transform: scale(1.5);
+ }
+ 100% {
+  transform: scale(1);
+ }
 }
