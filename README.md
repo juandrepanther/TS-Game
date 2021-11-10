@@ -35,3 +35,4 @@ REMARKS:
 - latest react-router-dom does not support Switch and component attribute. Must be:
   import { BrowserRouter, Route, Routes } from "react-router-dom",
   <Route path="/DragElements" element={<Game />} />
+- for redirect useNavigate hook from 'react-router-dom'

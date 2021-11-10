@@ -8,6 +8,7 @@ import { RootState } from "./redux/store/store"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Start from "./pages/Start"
 import Game from "./pages/Game"
+import Finish from "./pages/Finish"
 
 function App() {
  //EXECUTING TIMER UTILITY
@@ -21,6 +22,7 @@ function App() {
     <Routes>
      <Route path="/DragElements" element={<Game />} />
      <Route path="/TS-Game" element={<Start />} />
+     <Route path="/TS-Game-Finish" element={<Finish />} />
     </Routes>
    </div>
   </BrowserRouter>
