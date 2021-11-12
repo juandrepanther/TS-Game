@@ -14,3 +14,11 @@
  width: 100px;
  height: auto;
 }
+
+.title-color {
+ font-weight: 900;
+}
+.title-shark {
+ width: 40px;
+ height: auto;
+}
