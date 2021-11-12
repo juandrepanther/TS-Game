@@ -3,9 +3,9 @@ import { useDispatch } from "react-redux"
 import { changeIsStarted } from "src/redux/reducers/secReducer"
 import "../styles/Board.css"
 import { useNavigate } from "react-router-dom"
-import { selectShark } from "src/redux/reducers/sharkReducer"
-import { sharks, randomSharkNumber } from "src/utils/sharksStore"
-import { randomParams } from "src/utils/randomParams"
+import { sharks } from "src/utils/sharksStore"
+import { RenderRandomObject } from "./SharkObject"
+import { setPointerX, setPointerY } from "src/redux/reducers/coordinatesReducer"
 
 export default function Board(): ReactElement {
  const [show, setShow] = useState(true)
@@ -26,10 +26,6 @@ export default function Board(): ReactElement {
   return () => clearInterval(interval)
  }, [dispatch, navigate])
 
- //HANDLERS
-
- const sharkHandler = (sharkIndex: number) => dispatch(selectShark(sharkIndex))
-
  const mouseMoveHandler = (e: React.MouseEvent<HTMLDivElement>) => {
   //DEFINE MOUSE COORDINATES EXACTLY FROM BOARD DIV EDGES
 
@@ -43,32 +39,13 @@ export default function Board(): ReactElement {
    const pointerX = clientX - board_staticX
    const pointerY = clientY - board_staticY
 
-   console.log(pointerX, pointerY)
+   dispatch(setPointerX(pointerX))
+   dispatch(setPointerY(pointerY))
   }
  }
 
- const RenderRandomObject = () => {
-  const randomNumberClone = randomSharkNumber()
-  return (
-   <div
-    style={{
-     top: `${randomParams(0, 470)}px`,
-     left: `${randomParams(0, 470)}px`
-    }}
-    draggable
-    className="random-object"
-   >
-    <img
-     src={sharks[randomNumberClone]}
-     alt=""
-     className={`main-shark-${randomSharkNumber()}`}
-     onMouseDown={() => sharkHandler(randomNumberClone)}
-    />
-   </div>
-  )
- }
  return (
-  <div className="board" id="board" onClick={mouseMoveHandler}>
+  <div className="board" id="board" onMouseMove={mouseMoveHandler}>
    {show &&
     sharks.map((_shark, index) => {
      return <RenderRandomObject key={index} />
