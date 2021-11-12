@@ -26,7 +26,26 @@ export default function Board(): ReactElement {
   return () => clearInterval(interval)
  }, [dispatch, navigate])
 
+ //HANDLERS
+
  const sharkHandler = (sharkIndex: number) => dispatch(selectShark(sharkIndex))
+
+ const mouseMoveHandler = (e: React.MouseEvent<HTMLDivElement>) => {
+  //DEFINE MOUSE COORDINATES EXACTLY FROM BOARD DIV EDGES
+
+  const { clientX, clientY } = e
+  const board_box = document.getElementById("board")
+
+  if (board_box !== null) {
+   const board_staticX = board_box.offsetLeft
+   const board_staticY = board_box.offsetTop
+
+   const pointerX = clientX - board_staticX
+   const pointerY = clientY - board_staticY
+
+   console.log(pointerX, pointerY)
+  }
+ }
 
  const RenderRandomObject = () => {
   const randomNumberClone = randomSharkNumber()
@@ -49,7 +68,7 @@ export default function Board(): ReactElement {
   )
  }
  return (
-  <div className="board">
+  <div className="board" id="board" onClick={mouseMoveHandler}>
    {show &&
     sharks.map((_shark, index) => {
      return <RenderRandomObject key={index} />

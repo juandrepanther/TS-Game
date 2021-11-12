@@ -16,7 +16,7 @@ export const Basket = () => {
 
  //LOGIC ON COLLECTION FROM RANDOM SHARK START INDEX
  const countStats = () => {
-  if (sharkIndex === randomStartShark) {
+  if (sharkIndex === randomStartShark) { 
    dispatch(increment(1))
    notify()
   }
