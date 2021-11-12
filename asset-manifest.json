@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/TS-Game/static/css/main.5c8c2104.chunk.css",
-    "main.js": "/TS-Game/static/js/main.0d3d276c.chunk.js",
-    "main.js.map": "/TS-Game/static/js/main.0d3d276c.chunk.js.map",
-    "runtime-main.js": "/TS-Game/static/js/runtime-main.3682331a.js",
-    "runtime-main.js.map": "/TS-Game/static/js/runtime-main.3682331a.js.map",
-    "static/js/2.6cc679be.chunk.js": "/TS-Game/static/js/2.6cc679be.chunk.js",
-    "static/js/2.6cc679be.chunk.js.map": "/TS-Game/static/js/2.6cc679be.chunk.js.map",
+    "main.css": "/TS-Game/static/css/main.6cb552a7.chunk.css",
+    "main.js": "/TS-Game/static/js/main.774663a4.chunk.js",
+    "main.js.map": "/TS-Game/static/js/main.774663a4.chunk.js.map",
+    "runtime-main.js": "/TS-Game/static/js/runtime-main.249689e9.js",
+    "runtime-main.js.map": "/TS-Game/static/js/runtime-main.249689e9.js.map",
+    "static/css/2.58a45539.chunk.css": "/TS-Game/static/css/2.58a45539.chunk.css",
+    "static/js/2.2cc9d2ea.chunk.js": "/TS-Game/static/js/2.2cc9d2ea.chunk.js",
+    "static/js/2.2cc9d2ea.chunk.js.map": "/TS-Game/static/js/2.2cc9d2ea.chunk.js.map",
     "index.html": "/TS-Game/index.html",
-    "static/css/main.5c8c2104.chunk.css.map": "/TS-Game/static/css/main.5c8c2104.chunk.css.map",
-    "static/js/2.6cc679be.chunk.js.LICENSE.txt": "/TS-Game/static/js/2.6cc679be.chunk.js.LICENSE.txt",
+    "static/css/2.58a45539.chunk.css.map": "/TS-Game/static/css/2.58a45539.chunk.css.map",
+    "static/css/main.6cb552a7.chunk.css.map": "/TS-Game/static/css/main.6cb552a7.chunk.css.map",
+    "static/js/2.2cc9d2ea.chunk.js.LICENSE.txt": "/TS-Game/static/js/2.2cc9d2ea.chunk.js.LICENSE.txt",
     "static/media/App.css": "/TS-Game/static/media/background.80b6e997.jpg",
     "static/media/shark-bed.78259dd6.png": "/TS-Game/static/media/shark-bed.78259dd6.png",
     "static/media/shark-daddy.43ec729e.png": "/TS-Game/static/media/shark-daddy.43ec729e.png",
@@ -18,9 +20,10 @@
     "static/media/shark-small.a7ca0144.png": "/TS-Game/static/media/shark-small.a7ca0144.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3682331a.js",
-    "static/js/2.6cc679be.chunk.js",
-    "static/css/main.5c8c2104.chunk.css",
-    "static/js/main.0d3d276c.chunk.js"
+    "static/js/runtime-main.249689e9.js",
+    "static/css/2.58a45539.chunk.css",
+    "static/js/2.2cc9d2ea.chunk.js",
+    "static/css/main.6cb552a7.chunk.css",
+    "static/js/main.774663a4.chunk.js"
   ]
 }
