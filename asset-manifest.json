@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TS-Game/static/css/main.6cb552a7.chunk.css",
-    "main.js": "/TS-Game/static/js/main.774663a4.chunk.js",
-    "main.js.map": "/TS-Game/static/js/main.774663a4.chunk.js.map",
+    "main.css": "/TS-Game/static/css/main.f34b7724.chunk.css",
+    "main.js": "/TS-Game/static/js/main.48145462.chunk.js",
+    "main.js.map": "/TS-Game/static/js/main.48145462.chunk.js.map",
     "runtime-main.js": "/TS-Game/static/js/runtime-main.249689e9.js",
     "runtime-main.js.map": "/TS-Game/static/js/runtime-main.249689e9.js.map",
     "static/css/2.58a45539.chunk.css": "/TS-Game/static/css/2.58a45539.chunk.css",
-    "static/js/2.2cc9d2ea.chunk.js": "/TS-Game/static/js/2.2cc9d2ea.chunk.js",
-    "static/js/2.2cc9d2ea.chunk.js.map": "/TS-Game/static/js/2.2cc9d2ea.chunk.js.map",
+    "static/js/2.e8c82eb3.chunk.js": "/TS-Game/static/js/2.e8c82eb3.chunk.js",
+    "static/js/2.e8c82eb3.chunk.js.map": "/TS-Game/static/js/2.e8c82eb3.chunk.js.map",
     "index.html": "/TS-Game/index.html",
     "static/css/2.58a45539.chunk.css.map": "/TS-Game/static/css/2.58a45539.chunk.css.map",
-    "static/css/main.6cb552a7.chunk.css.map": "/TS-Game/static/css/main.6cb552a7.chunk.css.map",
-    "static/js/2.2cc9d2ea.chunk.js.LICENSE.txt": "/TS-Game/static/js/2.2cc9d2ea.chunk.js.LICENSE.txt",
+    "static/css/main.f34b7724.chunk.css.map": "/TS-Game/static/css/main.f34b7724.chunk.css.map",
+    "static/js/2.e8c82eb3.chunk.js.LICENSE.txt": "/TS-Game/static/js/2.e8c82eb3.chunk.js.LICENSE.txt",
     "static/media/App.css": "/TS-Game/static/media/background.80b6e997.jpg",
     "static/media/shark-bed.78259dd6.png": "/TS-Game/static/media/shark-bed.78259dd6.png",
     "static/media/shark-daddy.43ec729e.png": "/TS-Game/static/media/shark-daddy.43ec729e.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.249689e9.js",
     "static/css/2.58a45539.chunk.css",
-    "static/js/2.2cc9d2ea.chunk.js",
-    "static/css/main.6cb552a7.chunk.css",
-    "static/js/main.774663a4.chunk.js"
+    "static/js/2.e8c82eb3.chunk.js",
+    "static/css/main.f34b7724.chunk.css",
+    "static/js/main.48145462.chunk.js"
   ]
 }
