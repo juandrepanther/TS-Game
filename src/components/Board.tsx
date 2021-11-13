@@ -22,7 +22,7 @@ export default function Board(): ReactElement {
     clearInterval(interval)
     navigate("/TS-Game-Finish")
    }
-  }, 1500)
+  }, 2000)
   return () => clearInterval(interval)
  }, [dispatch, navigate])
 
